@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website Sale And Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header" id="block-header">
+        <div class="links">
+            <div class="svg-div">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="33.2 33.397 133.9 133.103"
+                    viewBox="33.2 33.397 133.9 133.103" height="100" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                        <style>
+                            #comp-km3aq0q0 svg [data-color="1"] {
+                                fill: #FFFFFF;
+                            }
+                        </style>
+                    </defs>
+                    <g>
+                        <path
+                            d="M165.7 61.6L137.2 49l-34.9-15.2c-1.3-.6-2.7-.5-3.9.1L71 46.8c-.5.1-1 .4-1.5.7L35.8 63.4c-.1.1-.2.1-.3.2-.1 0-.2.1-.2.1-.1 0-.1.1-.2.1l-.2.1c-.2.2-.4.3-.6.6l-.1.1c-.2.2-.3.4-.4.6 0 0-.1.1-.1.2-.1.2-.2.5-.3.7v.1c-.1.2-.1.4-.2.6v66.8c0 1.9 1.1 3.6 2.8 4.3l61.7 28.2h.1c.2.1.5.2.8.3h.2c.2 0 .5.1.7.1h.2c.3 0 .6 0 1-.1h.2c.3-.1.6-.2.8-.3.1 0 .1 0 .1-.1l62.6-30.8c1.6-.8 2.7-2.5 2.7-4.3V63.4c-.2-.8-.7-1.5-1.4-1.8zm-45.6 18.9L99.5 90.6l-50.3-23 23.1-10.9 47.8 23.8zm26.7-13.2c-1.1.5-2.2 1.1-3.2 1.5l-12.7 6.3-47.6-23.5 17.2-8.1L136.3 59c3.6 1.7 10 4.4 14.6 6.4-1.4.7-2.8 1.3-4.1 1.9zm-42.5 31.6l22.4-11 2 23c.2 2.5 2.3 4.4 4.8 4.4h.4c2.6-.2 4.6-2.6 4.3-5.2l-2.4-26.7 14.2-7c1.9-1 4.8-2.4 7.3-3.5V128l-53 26.1V98.9zm-9.5.1v55.4l-52.1-23.8V75.2L94.8 99z"
+                            fill="#fff" data-color="1"></path>
+                    </g>
+                </svg>
+                <p>Free Shipping for orders over $50</p>
+            </div>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contect</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Call Us 123-456-7890</a></li>
+            </ul>
+        </div>
+        <nav class="navbar">
+            <div class="logo-div">
+                <div class="logo">
+                    <a href="#">
+                        <h2>TechShed</h2>
+                    </a>
+                </div>
+                <div class="input">
+                    <input type="search" placeholder="Search...">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="nav-icon">
+                <ul>
+                    <li><a href="#">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-user"></i>
+                                <span>Log In</span>
+                            </div>
+                        </a></li>
+                    <li>
+                        <i class="fa-regular fa-heart"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="mobile-li">
+                <li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+                <li>
+                    <button id="hamburger">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">Shop All</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">Tablets</a></li>
+                <li><a href="#">Drons & Camera</a></li>
+                <li><a href="#">Audio</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Tv & Home Cinema</a></li>
+                <li><a href="#">Wearable Tech</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </div>
+        <div class="mobile-input">
+            <input type="search" placeholder="Search...">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="hide-links" id="hide-bar">
+        <div class="padding-div">
+            <div class="log-in-div">
+                <div class="new-user">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>Log In</span>
+                </div>
+                <span class="cut-icon">
+                    <button id="close-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </span>
+            </div>
+
+            <div class="new-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contect</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Call Us 123-456-7890</a></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <main class="middle-section">
+        <img src="./images/image-1.avif" alt="mid-image" id="slide-img">
+        <button id="next">></button>
+        <button id="prev"><</button>
+                <div class="mid-text">
+                    <span>Best Prices</span>
+                    <h1>Incredible Prices <br> on All Your <br> Favorite Items</h1>
+                    <p>Get more for less on selected brands</p>
+                    <div class="mid-btn">
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+    </main>
+
+    <section class="flex-box">
+        <div class="fill">
+            <div class="img-box-1">
+                <img src="./images/c22c23_e140bfa8cd6f4cb2ac5ee6e204f64073~mv2.jpg" alt="">
+                <div class="img-text-1">
+                    <span>Holiday Deals</span>
+                    <h2>Up to <br> 30% Off</h2>
+                    <p>Selected Smartphone Brands</p>
+                    <div class="text-btn-1">
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="img-box-2">
+                <img src="./images/c837a6_d84a631864a442a496670bc2d787c6a0~mv2 (1).jpg" alt="">
+                <div class="img-text-2">
+                    <p>Just In</p>
+                    <h2>Take Your <br> Sound Anywhere</h2>
+                    <p>Selected Smartphone Brands</p>
+                    <div class="text-btn-2">
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="company-logos">
+        <div class="small-size">
+            <div class="logo-1">
+                <img src="./images/download (3).svg" alt="svg">
+                <p>Curb-Side <br> Pickup</p>
+            </div>
+            <div class="logo-1">
+                <img src="./images/download (2).svg" alt="svg">
+                <p>Free shipping <br> orders over $50</p>
+            </div>
+            <div class="logo-1">
+                <img src="./images/download (1).svg" alt="svg">
+                <p>Low prices <br> guaranteed</p>
+            </div>
+            <div class="logo-1">
+                <img src="./images/download.svg" alt="svg">
+                <p>Available to <br> you 24/7 </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="best-seller">
+        <div class="pure-div">
+            <div class="items-heading">
+                <h1>Best Sellers</h1>
+            </div>
+            <div class="small-box">
+                <div class="items">
+                    <span class="sale">SALE</span>
+                    <img src="./images/item-1.png" alt="image">
+                    <p class="item-name">JP - Space Tablet 10.4" Wi-Fi 32GB</p>
+                    <div class="price-div">
+                        <a href="#" class="price">$85.00</a> <a href="#">$70.00</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <span class="sale">SALE</span>
+                    <img src="./images/item-4.png" alt="image">
+                    <p class="item-name">Ocean Pro 11 - 12.3" Touch Screen</p>
+                    <div class="price-div">
+                        <a href="#" class="price">$85.00</a> <a href="#">$70.00</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="./images/item-2.jpg" alt="image">
+                    <p class="item-name">Shel 50" Class LED 4K UHD Smart TV</p>
+                    <div class="price-div">
+                        <a href="#">$85.00</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-btn">
+                <a href="#">View All</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="item-category">
+        <div class="short-div">
+            <div class="top-head">
+                <h1>Shop by Category</h1>
+            </div>
+            <div class="see-item">
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-1" alt="img">
+                    </div>
+                    <h3>Computers</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-3" alt="img">
+                    </div>
+                    <h3>Mobiles</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-4" alt="">
+                    </div>
+                    <h3>Drones</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-2" alt="img">
+                    </div>
+                    <h3>Sale</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-5" alt="img">
+                    </div>
+                    <h3>Tablets</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-10" alt="img">
+                    </div>
+                    <h3>Best Sallers</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-6" alt="img">
+                    </div>
+                    <h3>Tv Home Cinema</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-8" alt="img">
+                    </div>
+                    <h3>Tv Home Cinema</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-9" alt="img">
+                    </div>
+                    <h3>Tv Home Cinema</h3>
+                </div>
+
+                <div class="grid-box">
+                    <div class="item-1">
+                        <img src="./images/new-img-7" alt="img">
+                    </div>
+                    <h3>Tv Home Cinema</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands-sec">
+        <div class="second-sec">
+            <div class="img-sec">
+                <img src="./images/big-img.png" alt="image">
+                <div class="discount">
+                    <div class="circle">
+                        <h2>Best <br> Price</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="svg-tag">
+                <div class="div-svg">
+                    <svg preserveAspectRatio="none" data-bbox="82.1 22.8 35.8 154.4" viewBox="82.1 22.8 35.8 154.4"
+                        height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape"
+                        role="presentation" aria-hidden="true">
+                        <g>
+                            <path d="M112.8 177.2h5.1V22.8H82.1l30.7 154.4z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="text-sec">
+                <h3>Save Up To</h3>
+                <h1>$150</h1>
+                <h2>On Selected Laptop & Tablets Brands</h2>
+                <p>Terms and conditions apply</p>
+                <div class="shop-btn">
+                    <a href="#">Shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Same Sec  -->
+
+    <section class="best-seller">
+        <div class="pure-div">
+            <div class="items-heading">
+                <h1>Best Sellers</h1>
+            </div>
+            <div class="small-box">
+                <div class="items">
+                    <span class="sale">SALE</span>
+                    <img src="./images/second-2.jpg" alt="image">
+                    <p class="item-name">JP - Space Tablet 10.4" Wi-Fi 32GB</p>
+                    <div class="price-div">
+                        <a href="#" class="price">$85.00</a> <a href="#">$70.00</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <span class="sale">SALE</span>
+                    <img src="./images/second-1.jpg" alt="image">
+                    <p class="item-name">Ocean Pro 11 - 12.3" Touch Screen</p>
+                    <div class="price-div">
+                        <a href="#" class="price">$85.00</a> <a href="#">$70.00</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="./images/second-3.jpg" alt="image">
+                    <p class="item-name">Shel 50" Class LED 4K UHD Smart TV</p>
+                    <div class="price-div">
+                        <a href="#">$85.00</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-btn">
+                <a href="#">View All</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Copy Paste  -->
+
+    <section class="brands-sec">
+        <div class="second-sec">
+
+            <div class="text-sec">
+                <h3>Best Arial View in Town</h3>
+                <h1><span>30% </span> OFF</h1>
+                <h2>on professional camera drones</h2>
+                <p>Limited quantities. <br>
+                    See product detail pages for availability.</p>
+                <div class="shop-btn">
+                    <a href="#">Shop</a>
+                </div>
+            </div>
+
+            <div class="img-sec-new">
+                <img src="./images/triangle.png" alt="image">
+                <div class="discount">
+                    <div class="circle">
+                        <h2>Best <br> Price</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="svg-tag">
+                <div class="second-div-svg">
+                    <svg preserveAspectRatio="none" data-bbox="82.1 22.8 35.8 154.4" viewBox="82.1 22.8 35.8 154.4"
+                        height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape"
+                        role="presentation" aria-hidden="true">
+                        <g>
+                            <path d="M112.8 177.2h5.1V22.8H82.1l30.7 154.4z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
